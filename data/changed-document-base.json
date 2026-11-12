@@ -1,0 +1,14 @@
+{
+  "source": {
+    "path": "other-base.mhtml",
+    "bytes": 1139,
+    "sha256": "396ec90761e5ed9b34164d3faac82b2f052a3d9f662ff924401acb600a749645"
+  },
+  "base_url": "https://shop.invalid/offers/",
+  "preferred_types": [
+    "text/html",
+    "text/plain"
+  ],
+  "max_parts": 10000,
+  "max_decoded_bytes": 2097152
+}

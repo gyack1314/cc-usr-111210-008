@@ -1,0 +1,14 @@
+{
+  "source": {
+    "path": "duplicate-cid.mhtml",
+    "bytes": 1127,
+    "sha256": "522a1a4dbbf5664b6e307e758e9849ba8dfccae5e09ec0eef340348632bff563"
+  },
+  "base_url": "https://shop.invalid/offers/",
+  "preferred_types": [
+    "text/html",
+    "text/plain"
+  ],
+  "max_parts": 10000,
+  "max_decoded_bytes": 2097152
+}

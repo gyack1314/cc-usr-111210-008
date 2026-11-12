@@ -1,0 +1,48 @@
+MIME-Version: 1.0
+Content-Type: multipart/related; boundary="outer"; start="<root>"
+Content-Base: https://shop.invalid/offers/
+
+--outer
+Content-Type: text/html; charset=utf-8
+Content-ID: <root>
+Content-Location: page.html
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><base href=3D"https://other.invalid/a/"></head><body><img src=3D"cid:shared">=
+<link href=3D"style.css"><img srcset=3D"a.png 1x, b.png 2x"></body></html>
+--outer
+Content-Type: image/png
+Content-ID: <shared>
+Content-Location: ../assets/a.png
+Content-Transfer-Encoding: base64
+
+Zml4dHVyZS1pbWFnZQ==
+--outer
+Content-Type: text/css
+Content-Location: ../assets/style.css
+
+body{background:url("a.png")} .x{background:url(data:image/png;base64,AA==)}
+--outer
+Content-Type: multipart/related; boundary=inner; start="<inner-root>"
+
+--inner
+Content-Type: text/html
+Content-ID: <inner-root>
+
+<img src="cid:shared">
+--inner
+Content-Type: image/png
+Content-ID: <shared>
+
+other-image
+--inner--
+
+--outer
+Content-Type: message/rfc822
+
+MIME-Version: 1.0
+Content-Type: text/plain
+Content-ID: <shared>
+
+not-a-web-resource
+--outer--
