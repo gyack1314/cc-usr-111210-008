@@ -1,8 +1,8 @@
 {
   "source": {
     "path": "duplicate-cid.mhtml",
-    "bytes": 1127,
-    "sha256": "522a1a4dbbf5664b6e307e758e9849ba8dfccae5e09ec0eef340348632bff563"
+    "bytes": 1080,
+    "sha256": "ad20d104c676738eb773b900f5f3cef697b899a4baf7a97cf744f03c2e7d432b"
   },
   "base_url": "https://shop.invalid/offers/",
   "preferred_types": [

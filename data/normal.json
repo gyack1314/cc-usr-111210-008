@@ -1,8 +1,8 @@
 {
   "source": {
     "path": "offer.mhtml",
-    "bytes": 1125,
-    "sha256": "5b9544b925984e4a2480eaeee2e6c2845296fbb36d1817cdfdc801f92b30e422"
+    "bytes": 1078,
+    "sha256": "6c98633dc0c2c12d10cd4728e7d06d2068b4c743b6e6185f0fc16ee9a0ac901d"
   },
   "base_url": "https://shop.invalid/offers/",
   "preferred_types": [
